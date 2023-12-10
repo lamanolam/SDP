@@ -1,0 +1,45 @@
+/* Header.css */
+
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo-section h1 {
+    margin: 0;
+}
+
+.nav-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-section li {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-section li::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+    /* Adjust the animation speed as needed */
+}
+
+.nav-section li:hover::before {
+    width: 100%;
+}
+
+.user-section {
+    margin-left: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.body-container {
+    height: 100vh;
+    background: url('./earth.jpg') center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.earth-info {
+    text-align: center;
+}
+
+.earth-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.earth-info p {
+    font-size: 1.2em;
+}
