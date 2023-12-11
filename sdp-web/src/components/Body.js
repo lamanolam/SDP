@@ -8,9 +8,9 @@ const Body = () => {
         <
         div className = "earth-info" >
         <
-        h2 > Welcome to our Speech Emotion Recognition Project < /h2> <
-        p > Explore the wonders of NLP! < /p> <
-        /div> <
+        h2 > Welcome to our Speech Emotion Recognition Project < /h2>  <
+        p > Explore the wonders of NLP! < /p>  <
+        /div>  <
         /div>
     );
 };
